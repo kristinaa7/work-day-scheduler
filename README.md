@@ -7,12 +7,13 @@ This calendar planner application can help the user stay organized during the st
 N/A
 
 ## Usage 
-
+To use, find specified hour time block and click into the textbox. Write the task that you would like to accomplish. The text boxs represent the different time periods. Grey for past, red for present, and green for future. After the desired task is written in the textbox, the text can be saved to the local storage and appear in the textbox for future reference.
 
 ### Screenshot to Webpage 
 ![Screenshot](screenshots/photo.png)
 
 ### Link to Deloyed Website 
+https://kristinaa7.github.io/work-day-scheduler/
 
 ## Credits 
 N/A
