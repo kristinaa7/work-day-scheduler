@@ -16,4 +16,8 @@ To use, find specified hour time block and click into the textbox. Write the tas
 https://kristinaa7.github.io/work-day-scheduler/
 
 ## Credits 
-N/A
+https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css
+
+https://use.fontawesome.com/releases/v5.8.1/css/all.css
+
+https://fonts.googleapis.com/css?family=Open+Sans&display=swap 

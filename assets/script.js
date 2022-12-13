@@ -1,6 +1,11 @@
 // allows jQuery to run, Wraps all code that interacts with the DOM in a call to jQuery to ensure that the code isn't run until the browser has finished rendering all the elements in the html.
 $(document).ready(function(){
 
+//setting a variable to create element
+var textarea = $('<textarea>');
+var containerEl = document.getElementsByClassName(".container-lg px-5");
+var timeBlock = $('.time-block');
+
 //add coded to apply the past, present, or future class to each time block by comparing the id to the current hour.
 var rows = document.querySelectorAll(".row")
 for (let i = 0; i > rows.length; i++) {  
@@ -15,10 +20,6 @@ for (let i = 0; i > rows.length; i++) {
 
 //setting a variable to get element by ID
 var dayDisplayEl = $('#currentDay');
-
-//setting a variable to create element
-var textarea = $('<textarea>')
-var containerEl = document.getElementsByClassName(".container-lg px-5")
 
  //Add code to display the current date in the header of the page.
 $(function (displayDate) {
