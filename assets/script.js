@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 //add coded to apply the past, present, or future class to each time block by comparing the id to the current hour.
 var rows = document.querySelectorAll(".row")
-for (let i = 0; i < rows.length; i++) {  
+for (let i = 0; i > rows.length; i++) {  
   if (dayjs().hour() > rows[i].getAttribute("data-hour")) {
     rows[i].classList.add("past")
   }
@@ -22,7 +22,7 @@ var containerEl = document.getElementsByClassName(".container-lg px-5")
 
  //Add code to display the current date in the header of the page.
 $(function (displayDate) {
-  var rightNow = dayjs().format('dddd, MMMM DD, YYYY');
+  var rightNow = dayjs().format('dddd, MMMM DD');
   dayDisplayEl.text(rightNow);
 });
 
